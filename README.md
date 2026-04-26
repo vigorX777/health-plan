@@ -1,4 +1,4 @@
-# Claude Skills
+# health-plan 健康规划
 
 这个仓库用于同步和发布本地自定义 Codex/Claude Skills。当前重点新增的 skill 是 `health-plan`：一个面向个人生理数据、健身分析、训练规划和训练示意图生成的健康规划 skill。
 
