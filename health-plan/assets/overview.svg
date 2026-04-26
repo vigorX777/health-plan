@@ -1,0 +1,139 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">health-plan skill overview</title>
+  <desc id="desc">A presentation-style overview image for the health-plan skill, showing staged health analysis, fitness planning, and gpt-image-2 image generation fallback.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6F8F4"/>
+      <stop offset="0.55" stop-color="#EEF4F1"/>
+      <stop offset="1" stop-color="#E6EEF8"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="126" y1="100" x2="834" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#062041"/>
+      <stop offset="1" stop-color="#0F4C81"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="240" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7F3DE"/>
+      <stop offset="1" stop-color="#A8DDB8"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="260" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E3EEFF"/>
+      <stop offset="1" stop-color="#B7CEF4"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#09203F" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .font { font-family: "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; }
+      .title { font-size: 78px; font-weight: 850; letter-spacing: -2px; }
+      .subtitle { font-size: 30px; font-weight: 520; }
+      .label { font-size: 25px; font-weight: 760; }
+      .small { font-size: 19px; font-weight: 500; }
+      .tiny { font-size: 16px; font-weight: 520; }
+      .mono { font-family: "SFMono-Regular", "JetBrains Mono", Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1390" cy="120" r="230" fill="#DDEBFF" opacity="0.75"/>
+  <circle cx="130" cy="790" r="210" fill="#DDF1E2" opacity="0.78"/>
+  <path d="M112 128 C250 58 420 70 580 132 C730 190 858 188 1012 130 C1180 66 1354 68 1490 128" stroke="#D2DEE9" stroke-width="2" opacity="0.9"/>
+
+  <rect x="76" y="72" width="1448" height="756" rx="34" fill="white" opacity="0.84" filter="url(#shadow)"/>
+  <rect x="76" y="72" width="1448" height="756" rx="34" stroke="#D8E2ED" stroke-width="2"/>
+
+  <g transform="translate(120 116)">
+    <rect x="0" y="0" width="620" height="240" rx="28" fill="url(#navy)"/>
+    <text class="font title" x="40" y="92" fill="#FFFFFF">health-plan</text>
+    <text class="font subtitle" x="44" y="142" fill="#CFE4FF">个人健康分析 · 7 天训练规划 · 每日训练图</text>
+    <text class="font small" x="44" y="194" fill="#EAF3FF">从体脂秤 / 穿戴设备数据出发，分阶段完成非诊断性分析、确认、规划和出图。</text>
+    <rect x="432" y="172" width="150" height="34" rx="17" fill="#FFFFFF" opacity="0.13"/>
+    <text class="font tiny" x="456" y="195" fill="#FFFFFF">Skill Package</text>
+  </g>
+
+  <g transform="translate(780 116)">
+    <rect x="0" y="0" width="700" height="240" rx="28" fill="#F8FBFF" stroke="#D7E3F3"/>
+    <text class="font label" x="36" y="52" fill="#10233F">核心输出</text>
+    <g transform="translate(36 82)">
+      <rect x="0" y="0" width="190" height="104" rx="20" fill="url(#green)"/>
+      <text class="font label" x="24" y="42" fill="#12351F">状态分析</text>
+      <text class="font small" x="24" y="74" fill="#30533A">数据校验 / 风险项</text>
+    </g>
+    <g transform="translate(254 82)">
+      <rect x="0" y="0" width="190" height="104" rx="20" fill="#FFF1D7"/>
+      <text class="font label" x="24" y="42" fill="#56360D">训练计划</text>
+      <text class="font small" x="24" y="74" fill="#70542A">动作 / RPE / 恢复</text>
+    </g>
+    <g transform="translate(472 82)">
+      <rect x="0" y="0" width="190" height="104" rx="20" fill="url(#blue)"/>
+      <text class="font label" x="24" y="42" fill="#14345D">每日海报</text>
+      <text class="font small" x="24" y="74" fill="#38577B">Day 1 - Day 7</text>
+    </g>
+  </g>
+
+  <g transform="translate(120 402)">
+    <text class="font label" x="0" y="0" fill="#10233F">分阶段工作流</text>
+    <g transform="translate(0 32)">
+      <rect x="0" y="0" width="215" height="118" rx="22" fill="#F7FAFD" stroke="#D9E4EF"/>
+      <circle cx="34" cy="36" r="18" fill="#0F4C81"/>
+      <text class="font small" x="28" y="43" fill="#FFFFFF">1</text>
+      <text class="font label" x="66" y="42" fill="#13253D">数据解析</text>
+      <text class="font tiny" x="24" y="76" fill="#526476">体重 · 体脂 · HRV</text>
+      <text class="font tiny" x="24" y="98" fill="#526476">一致性校验</text>
+    </g>
+    <g transform="translate(245 32)">
+      <rect x="0" y="0" width="215" height="118" rx="22" fill="#F7FAFD" stroke="#D9E4EF"/>
+      <circle cx="34" cy="36" r="18" fill="#0F4C81"/>
+      <text class="font small" x="28" y="43" fill="#FFFFFF">2</text>
+      <text class="font label" x="66" y="42" fill="#13253D">上下文确认</text>
+      <text class="font tiny" x="24" y="76" fill="#526476">目标 · 器械 · 睡眠</text>
+      <text class="font tiny" x="24" y="98" fill="#526476">先确认再分析</text>
+    </g>
+    <g transform="translate(490 32)">
+      <rect x="0" y="0" width="215" height="118" rx="22" fill="#F7FAFD" stroke="#D9E4EF"/>
+      <circle cx="34" cy="36" r="18" fill="#0F4C81"/>
+      <text class="font small" x="28" y="43" fill="#FFFFFF">3</text>
+      <text class="font label" x="66" y="42" fill="#13253D">专业报告</text>
+      <text class="font tiny" x="24" y="76" fill="#526476">非诊断性表达</text>
+      <text class="font tiny" x="24" y="98" fill="#526476">异常项优先级</text>
+    </g>
+    <g transform="translate(735 32)">
+      <rect x="0" y="0" width="215" height="118" rx="22" fill="#F7FAFD" stroke="#D9E4EF"/>
+      <circle cx="34" cy="36" r="18" fill="#0F4C81"/>
+      <text class="font small" x="28" y="43" fill="#FFFFFF">4</text>
+      <text class="font label" x="66" y="42" fill="#13253D">7 天规划</text>
+      <text class="font tiny" x="24" y="76" fill="#526476">动作 · 组数 · RPE</text>
+      <text class="font tiny" x="24" y="98" fill="#526476">确认后再出图</text>
+    </g>
+    <g transform="translate(980 32)">
+      <rect x="0" y="0" width="215" height="118" rx="22" fill="#F7FAFD" stroke="#D9E4EF"/>
+      <circle cx="34" cy="36" r="18" fill="#0F4C81"/>
+      <text class="font small" x="28" y="43" fill="#FFFFFF">5</text>
+      <text class="font label" x="66" y="42" fill="#13253D">并发出图</text>
+      <text class="font tiny" x="24" y="76" fill="#526476">gpt-image-2 API</text>
+      <text class="font tiny" x="24" y="98" fill="#526476">Codex 兜底</text>
+    </g>
+  </g>
+
+  <g transform="translate(120 610)">
+    <rect x="0" y="0" width="590" height="150" rx="28" fill="#0A2747"/>
+    <text class="font label" x="34" y="46" fill="#FFFFFF">安全边界</text>
+    <text class="font small" x="34" y="86" fill="#DCEAFF">不做医学诊断，不承诺治疗或保证效果；红旗信号优先提示复核。</text>
+    <text class="font small" x="34" y="122" fill="#DCEAFF">新手默认 RPE 6-7，避免高风险大重量动作。</text>
+  </g>
+
+  <g transform="translate(760 610)">
+    <rect x="0" y="0" width="720" height="150" rx="28" fill="#F7FAFD" stroke="#D7E3F3"/>
+    <text class="font label" x="34" y="46" fill="#10233F">图片生成通道</text>
+    <rect x="34" y="72" width="196" height="44" rx="22" fill="#0F4C81"/>
+    <text class="font small mono" x="57" y="101" fill="#FFFFFF">gpt-image-2</text>
+    <path d="M250 94 H336" stroke="#91A9C4" stroke-width="3" stroke-linecap="round"/>
+    <path d="M326 84 L338 94 L326 104" stroke="#91A9C4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="362" y="72" width="260" height="44" rx="22" fill="#E8F4EB"/>
+    <text class="font small" x="390" y="101" fill="#1F4A2D">Codex imagegen 兜底</text>
+    <text class="font tiny" x="34" y="136" fill="#526476">Day 1-Day 7 独立任务；失败只重试失败当天。</text>
+  </g>
+
+  <g transform="translate(120 802)">
+    <text class="font tiny" x="0" y="0" fill="#6A7B8E">health-plan.skill · staged health planning for Codex/Claude</text>
+  </g>
+</svg>
