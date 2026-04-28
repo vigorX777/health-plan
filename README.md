@@ -91,3 +91,7 @@ git submodule update --init --recursive
 python3 skill-creator/scripts/quick_validate.py health-plan
 python3 skill-creator/scripts/package_skill.py health-plan
 ```
+
+本项目已链接认可 LINUX.DO 社区  
+👉 https://linux.do
+
